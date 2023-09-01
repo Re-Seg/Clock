@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <canvas id="canvas1" width="400" height="400"></canvas>
+        <canvas id="canvas4" width="400" height="400"></canvas>
+        <canvas id="canvas" width="400" height="400"></canvas>
+        <canvas id="canvas3" width="400" height="400"></canvas>
+        <canvas id="canvas2" width="400" height="400"></canvas>
+    </div>
+    <div>
+        <section class="heure">
+            <legend>Régler l'heure</legend>
+            <label form="seconde">Pour régler les secondes</label>
+            <input type="number" id="seconde" name="seconde" max="59" min="0"><br>
+            <label form="minute">Pour régler les minutes</label>
+            <input type="number" id="minute" name="minute" max="59" min="0"><br>
+            <label form="heure">Pour régler l'heure</label>
+            <input type="number" id="heure" name="heure" max="23" min="0"><br>
+            <input type="submit" id="règle" value="Réglé"><br>
+            <span id="problème"></span>
+        </section>
+        <button id="régler">Régler l'heure</button>
+        <section class="heure-r">
+            <legend>Régler l'heure du réveil</legend>
+            <label form="seconde-r">Pour régler les secondes</label>
+            <input type="number" id="seconde-r" name="seconde-r" max="59" min="0"><br>
+            <label form="minute-r">Pour régler les minutes</label>
+            <input type="number" id="minute-r" name="minute-r" max="59" min="0"><br>
+            <label form="heure-r">Pour régler l'heure</label>
+            <input type="number" id="heure-r" name="heure-r" max="23" min="0"><br>
+            <input type="submit" id="règle-r" value="Réglé"><br>
+            <span id="problème-r"></span>
+        </section>
+        <button id="réveil">Réveil</button>
+    </div>
+    <script src="_engine.js"></script>
+    <script src="_dial_1.js"></script>
+    <script src="_dial_2.js"></script>
+    <script src="_big_needle.js"></script>
+    <script src="_meddium_needle.js"></script>
+    <script src="_small_needle.js"></script>
+</body>
+</html>

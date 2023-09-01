@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réveille toi</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*background: black;*/
+        }
+        .consol{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #coupé, #retardé{
+            width: 35%;
+            height: 30%;
+            font-size: 150%;
+            display: flex;
+            background: rgb(200, 12, 12);
+            color: white;
+            padding: 0px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+        #coupé:hover, #retardé:hover{
+            box-shadow: 1px 1px 1px  #999;
+            border: 2px solid #999;
+        }
+        @media screen and (max-width:750px){
+            body{
+                height: 500px;
+            }
+        }
+        @media screen and (max-width:400px){
+            body{
+                height: 300px;
+            }
+            #coupé, #retardé{
+                font-size: 100%;
+            }
+        }
+
+    </style>
+    
+</head>
+<body>
+    <audio autoplay="true" loop="true" id="song" >
+        <source src="Réveil.mp3">
+    </audio>
+    <div class="consol">
+        <div id="coupé"><span>Couper</span></div>
+        <div id="retardé"><span>Retarder</span></div>
+    </div>
+    <script src="wake_up.js"></script>
+</body>
+</html>

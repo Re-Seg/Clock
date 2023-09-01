@@ -5,15 +5,12 @@ body{
     height: 700px;
     background-image: url("background.jpg");
     background-repeat: no-repeat;
-    /*background-position-x: 50%;*/
-    background-size: auto;
+    background-size: 1536px;
     background-color: black;
 }
 #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
     background-color: rgb(255, 255, 255, 0);
     position: absolute;
-    /*margin-top: 30%;
-    margin-left: 40%;*/
     left: 40%;
     top: 30%;
 }
@@ -70,8 +67,7 @@ body{
 @media screen and (max-width : 1250px) {
     body{
         height: 600px;
-       /* background-position-x: 50%;
-        background-size: 30%;*/
+        background-size: cover;
     }
     #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
         position: absolute;
@@ -82,8 +78,7 @@ body{
 @media screen and (max-width : 1024px) {
     body{
         height: 500px;
-        /*background-position-x: 50%;
-        background-size: 35%;*/
+        background-size: cover;
     }
     #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
         position: absolute;
@@ -93,8 +88,7 @@ body{
 }@media screen and (max-width : 850px) {
     body{
         height: 500px;
-        /*background-position-x: 50%;
-        background-size: 45%;*/
+        background-size: cover;
     }
     #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
         position: absolute;
@@ -106,8 +100,7 @@ body{
     body{
         height: 400px;
         width: 500px;
-        /*background-position-x: 25%;
-        background-size: 80%;*/
+        background-size: cover;
     }
     #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
         position: absolute;
@@ -118,20 +111,20 @@ body{
 @media screen and (max-width = 600px) {
     body{
         height: 400px;
-        /*background-position-x: 0%;
-        background-size: 60%;*/
+        width: 600px;
+        background-size: cover;
     }
     #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
         left: 0%;
         top: 35%;
     }
 }
-/*@media screen and (max-width = 300px) {
+@media screen and (max-width = 500px) {
     body{
         height: 400px;
     }
     #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
-        left: 0%;
-        top: 30%;
+        left: 40%;
+        top: 0%;
     }
-}*/
+}
