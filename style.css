@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 700px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    /*background-position-x: 50%;*/
+    background-size: auto;
+    background-color: black;
+}
+#canvas, #canvas1, #canvas2, #canvas3, #canvas4{
+    background-color: rgb(255, 255, 255, 0);
+    position: absolute;
+    /*margin-top: 30%;
+    margin-left: 40%;*/
+    left: 40%;
+    top: 30%;
+}
+#heure, #seconde, #minute, #heure-r, #seconde-r, #minute-r{
+    width: 40px;
+    margin-top: 10px;
+}
+.heure, .heure-r{
+    float: right;
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 20px;
+    background: rgb(200, 12, 12);
+    display: none;
+}
+.heure-r{
+    float: left;
+}
+#règle, #règle-r{
+    border: 1px solid grey;
+    background: grey;
+    color: white;
+    margin-top: 10px;
+    float: right;
+    padding: 7.5px;
+    border-radius: 2.5px;
+}
+#règle:hover, #règle-r:hover{
+    box-shadow: 1px 1px 1px 1px #777;
+    border-radius: 5px;
+}
+#régler, #réveil{
+    float: right;
+    margin: 40px;
+    background: #aaa;
+    color: rgb(200, 12, 12);
+    padding: 20px;
+    border: 1px dashed #999;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #777;
+    display: inline;
+    
+}
+#réveil{
+    float: left;
+}
+#régler:hover, #réveil:hover{
+    background: rgb(200, 12, 12, 1);
+    color: #aaa;
+}
+#problème,  #problème-r{
+    color: white;
+}
+@media screen and (max-width : 1250px) {
+    body{
+        height: 600px;
+       /* background-position-x: 50%;
+        background-size: 30%;*/
+    }
+    #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
+        position: absolute;
+        left: 30%;
+        top: 30%;
+    }
+}
+@media screen and (max-width : 1024px) {
+    body{
+        height: 500px;
+        /*background-position-x: 50%;
+        background-size: 35%;*/
+    }
+    #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
+        position: absolute;
+        left: 20%;
+        top: 30%;
+    }
+}@media screen and (max-width : 850px) {
+    body{
+        height: 500px;
+        /*background-position-x: 50%;
+        background-size: 45%;*/
+    }
+    #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
+        position: absolute;
+        left: 15%;
+        top: 30%;
+    }
+}
+@media screen and (max-width : 750px) {
+    body{
+        height: 400px;
+        width: 500px;
+        /*background-position-x: 25%;
+        background-size: 80%;*/
+    }
+    #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
+        position: absolute;
+        left: 10%;
+        top: 35%;
+    }
+}
+@media screen and (max-width = 600px) {
+    body{
+        height: 400px;
+        /*background-position-x: 0%;
+        background-size: 60%;*/
+    }
+    #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
+        left: 0%;
+        top: 35%;
+    }
+}
+/*@media screen and (max-width = 300px) {
+    body{
+        height: 400px;
+    }
+    #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
+        left: 0%;
+        top: 30%;
+    }
+}*/
