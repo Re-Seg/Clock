@@ -67,7 +67,6 @@ body{
 @media screen and (max-width : 1250px) {
     body{
         height: 600px;
-        background-size: cover;
     }
     #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
         position: absolute;
@@ -78,7 +77,6 @@ body{
 @media screen and (max-width : 1024px) {
     body{
         height: 500px;
-        background-size: cover;
     }
     #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
         position: absolute;
@@ -88,7 +86,6 @@ body{
 }@media screen and (max-width : 850px) {
     body{
         height: 500px;
-        background-size: cover;
     }
     #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
         position: absolute;
@@ -100,7 +97,6 @@ body{
     body{
         height: 400px;
         width: 500px;
-        background-size: cover;
     }
     #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
         position: absolute;
@@ -112,7 +108,6 @@ body{
     body{
         height: 400px;
         width: 600px;
-        background-size: cover;
     }
     #canvas, #canvas1, #canvas2, #canvas3, #canvas4{
         left: 0%;
