@@ -66,4 +66,3 @@ if (body.scrollWidth<=500) {
 }else{
     l1.t();
 }
-alert(body.scrollWidth);
